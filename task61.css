@@ -32,11 +32,11 @@ background:white;}
 	display: flex;
 text-align: center;
 	justify-content: center;
-background: white;}
+background: white;
+z-index: 1;}
 .xiala select{width: 33.33%;
 padding: 1em;
 	color: grey;
-	
 }
 
 .a{display: flex;
