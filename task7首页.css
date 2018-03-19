@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html,body{padding:0; margin:0;
+overflow-x:hidden;}
+.body{font-family: 黑体;
+}
+.header{background: #5fc0cd;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	color: #FFFFFF;
+	z-index: 1;
+	align-items: center;
+	  }	
+.header div {margin-left:1em;}
+
+.box12{position: absolute;
+right:20px;
+top: 10px}
+.a { width: 100%; 
+	margin: 80px 0 20px 0;
+border: 1px solid #9a9a9a;
+position: relative;}
+.a>button{width: 100%;
+		padding: 10px 0;
+		font-size: 130%;
+		color:#9a9a9a;
+		 background: white;
+        border: 0 ;}
+.b { width: 100%; 
+	margin: 0 0 5% 0;
+border: 1px solid #9a9a9a;
+position: relative;
+padding-bottom: 15%}
+.b p{
+	text-align: center;
+	margin: 0;
+}
+.b1{width: 100%;
+		padding: 10px 0;
+		font-size: 130%;
+		color:#fbb435;
+		 background: white;
+	border: 0;
+        border-bottom: 1px solid #fbb435;}
+.b2{width: 80%;
+	margin: 15px 10% 5px 10%;
+		padding: 20px 0;
+		font-size: 130%;
+		color:white;
+		 background: #69d1e9;
+
+	border: 0;
+	
+    }
+.b3{width: 80%;
+	margin: 5px 10%;
+		padding: 20px 0;
+		font-size: 130%;
+		color:white;
+		 background: #69d1e9;
+
+	border: 0;
+	
+    }
+.b4{width: 80%;
+	margin: 5px 10%;
+		padding: 20px 0;
+		font-size: 130%;
+		color:white;
+		 background: #69d1e9;
+	border: 0;
+    }
+div.item img{
+    width:100%;
+   }
+  div#carousel-example-generic{
+    width:90%;
+    margin:0 auto;
+  }
+.d li.active{
+	background: #69d1e9;
+}
+.d li{background: #f0f0f0}
+.next{position: absolute;
+	right:0;
+	top:57%;
+	
+}
+.carousel-control img{
+	
+}
