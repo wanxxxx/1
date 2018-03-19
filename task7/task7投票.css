@@ -50,9 +50,8 @@ main{
 	padding: 10% 0 0 0;
 	
 }
+
 main button{
-	margin: 7% 1% 10% 5%;
-	padding: 0 ;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -62,14 +61,20 @@ main button{
 .box:hover .button-img{
     display:block ;
 }
+.father{margin: 4% 2%;
+padding: 0;
+width: 25vw;
+	display: flex;
+	flex-direction: column
+}
 .button-img {
-	width: 70px;
-	display:none;
+	width: 25vw;
+	display:none;	
+	text-align: center;
 	
-
  }
-.button-img img{
-	margin: 0 -2.5px
+.father:hover .button-img{
+    display:block ;
 }
 .box{width: 25vw;
 	height: 25vw;
