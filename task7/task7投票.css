@@ -55,11 +55,11 @@ button{
 	
 }
 .main button:hover .button-img{
-    display:block ;
+    visibility: visible ;
 }
 .button-img {
 	width: 80px;
-	display:none;
+	visibility: hidden;
 	
 
  }
